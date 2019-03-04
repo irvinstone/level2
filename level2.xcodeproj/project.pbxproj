@@ -12,6 +12,8 @@
 		C0C8B731222D942600805BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C8B72F222D942600805BF3 /* Main.storyboard */; };
 		C0C8B733222D942800805BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C8B732222D942800805BF3 /* Assets.xcassets */; };
 		C0C8B736222D942800805BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C8B734222D942800805BF3 /* LaunchScreen.storyboard */; };
+		C0C8B73E222DB3E500805BF3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B73D222DB3E500805BF3 /* Post.swift */; };
+		C0C8B742222DB74800805BF3 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B741222DB74800805BF3 /* PostCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C0C8B732222D942800805BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0C8B735222D942800805BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0C8B737222D942800805BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C8B73D222DB3E500805BF3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		C0C8B741222DB74800805BF3 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				C0C8B732222D942800805BF3 /* Assets.xcassets */,
 				C0C8B734222D942800805BF3 /* LaunchScreen.storyboard */,
 				C0C8B737222D942800805BF3 /* Info.plist */,
+				C0C8B73D222DB3E500805BF3 /* Post.swift */,
+				C0C8B741222DB74800805BF3 /* PostCollectionViewCell.swift */,
 			);
 			path = level2;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C8B742222DB74800805BF3 /* PostCollectionViewCell.swift in Sources */,
+				C0C8B73E222DB3E500805BF3 /* Post.swift in Sources */,
 				C0C8B72E222D942600805BF3 /* ViewController.swift in Sources */,
 				C0C8B72C222D942600805BF3 /* AppDelegate.swift in Sources */,
 			);
